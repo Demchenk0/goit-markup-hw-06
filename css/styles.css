@@ -241,7 +241,7 @@ ul {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 30px;
-    line-height: 1.9;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     color: var(--white-color);
     font-weight: 900;
@@ -259,6 +259,7 @@ ul {
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
+    line-height: 1.86;
     cursor: pointer;
     font-family: inherit;
     text-align: center;
@@ -308,6 +309,7 @@ ul {
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 50%;
     background: #FFFFFF;
+    cursor: pointer;
 
     transition: fill 250ms var(--timing-function);
 }
@@ -915,7 +917,7 @@ text-align: left;
 .footer-submit {
     display: inline-block;
     justify-content: center;
-    margin-left: 94px;
+    margin-left: auto;
 
 }
 
@@ -979,14 +981,16 @@ text-align: left;
     font-family: inherit;
     line-height: 1.6;
     letter-spacing: 0.03em;
-    transition: color 250ms var(--timing-function),
-    background-color 250ms var(--timing-function);
+    transition: color 250ms var(--timing-function);
+    background-color 252ms var(--timing-function);
 }
 
 .filter:hover,
 .filter:focus {
     color: var(--white-color);
     background-color: var(--accent-bg-color);
+    transition: color 250ms var(--timing-function);
+    background-color 250ms var(--timing-function);
 }
 
 /* Project */
